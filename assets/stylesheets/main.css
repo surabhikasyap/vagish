@@ -1,0 +1,1000 @@
+body{
+    margin: 0px;
+   
+    
+}
+
+#container
+{
+    
+     height: 650px;
+     animation: slider 20s infinite linear;
+     background-size: 100% 100%;
+     position: absolute;
+    
+}
+
+.container .logo
+{
+
+    width: 60%;
+    position: relative;
+    
+}
+
+
+ #main-navigation ul li a
+{
+  top: 0px; 
+    color:brown;
+    font-size: 25px;
+    font-family: c;
+     font-weight:bold;
+    
+}
+.anim1{
+    overflow: visible;
+    
+}
+.picanimation{
+    transition: 2s;
+}
+.anim1:hover .picanimation{
+    transform: scale(1.8,1.1);
+    transition: 2s;
+}
+#main-navigation ul li 
+{
+    display: inline-block;
+    padding:20px;
+}
+#main-navigation ul p{
+    color: brown;
+    margin-top: -20px;
+    margin-left: 78%;
+    font-size: 25px;
+}
+
+@keyframes slider {
+            0% {
+                background-image: url("../image/bulb.jpg");
+            }
+    
+       51% {
+                background-image: url("../image/front1.png");
+            }
+    
+            
+            100% {
+                background-image: url("../image/china.jpg");
+            }
+        }
+
+
+
+#content  {
+    margin-left: 0%;
+    
+     overflow: hidden; 
+white-space: nowrap;
+     letter-spacing: 3px;
+   
+     animation:
+    typing 10s steps(80, end),
+     blink-caret 1s step-end infinite;
+ 
+}
+
+@keyframes typing {
+     from { width: 0 }
+     to { width: 100% }
+ }
+ 
+ /* The typewriter cursor effect */
+ @keyframes blink-caret {
+     from, to { border-color: transparent }
+     80% { border-color: orange; }
+ } 
+
+@media (max-width:992px)
+{    
+    #header .logo
+    {
+        width:40px;
+    }
+    #main-navigation ul {
+        text-align: center;
+        transform: scale(1,0);
+        transform-origin: top;
+        transition: 1s;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 125px;
+        z-index: 1000;
+        background-color: rgba(0,0,0,0.5);
+    }
+    #main-navigation ul li {
+        font-size: 20px;
+        display: block;
+    }
+    #main-navigation ul li a {
+        border-right: none;
+        border-bottom: 1px solid #aaaaaa;
+        padding: 10px 0px;
+        color: #fff;
+    }
+    .menu-btn {
+        display: block;
+    }
+    
+    #brand .row .col-md-6
+    {
+        height:385px;
+    }
+    
+
+
+}
+
+
+#content h2{
+    color:firebrick;
+    font-family: c;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight:bold;
+
+}
+
+#content p{
+    color: antiquewhite;
+    font-family: c;
+    font-size: 30px;
+    width: 80%;
+     font-weight:bold;
+}
+
+#content h3
+{
+color:black;
+    font-size: 30px;
+    font-weight: bolder;
+   
+}
+
+#buttonservice
+{
+    margin-top: 3%;
+}
+
+#buttonservice .buttonservice1 ul li:hover
+{
+    background-color:khaki;
+    
+}
+
+#buttonservice .buttonservice1 ul li
+{
+    border-radius: 10px;
+    border: 2px solid aqua;
+    width: 16%;
+    display: inline-block;
+        
+  }
+
+#buttonservice .buttonservice1 ul li a {
+   
+    font-size: 22px;
+    color:brown;
+    margin-left: -12px;
+    font-weight: 700; 
+}
+
+#button >div
+{
+  margin-top: 80px;
+}
+
+#banner
+{
+   margin-top: 11%;
+    padding-top: 10px;
+    padding-bottom:0.5px; 
+    background-color:black;
+}
+
+#banner img
+{
+ 
+    height: 330px;
+    margin: 0px 40px 20px 70px;
+       
+}
+
+.item  h3{
+    font-size: 70px;
+    font-family:c;
+    color:snow;
+    /*margin:10px 0px 0px 400px;*/
+    margin:60px 5px 10px 380px;
+    
+    
+    }
+.item p{
+    font-size: 30px;
+    color: antiquewhite;
+    /*width: 1095px;
+    height: 41px;*/
+        margin: 10px 0px 40px 330px;
+    
+    
+}
+
+#button
+{
+    background-color:#0f1321;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 200px;    
+}
+
+#button .button1, .button2
+{
+    font-size: 18px;
+    padding: 15px;
+    margin: 19px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid aqua;
+    margin-left: 18%;
+    
+  }
+
+#button >div
+{
+  margin-top: 80px;
+}
+
+#button a
+{
+    color: white;
+}
+
+#brand
+{
+     background-color:#0f1321;
+    
+    border-bottom: 6px solid #3581e2;
+}
+
+#brand h2
+{
+    color:#3581e2;
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+
+#brand p
+{
+    text-indent: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#brand img{
+ width: 700px;
+ margin-top: 400px;
+margin-bottom:0px
+
+}
+#buttonbrand {
+    margin-top: 20%;
+}
+
+#buttonbrand ul li{
+    display: inline-block;
+    background-color: #3581e2;
+    margin: 2px;
+    padding: 20px 20px 20px 20px;
+}
+#buttonbrand ul li a{
+    text-align: center;
+    color: white;
+   font-size: 20px
+}
+
+#buttonbrand ul :hover{
+    background-color: azure;
+}
+#buttonbrand ul:hover a {
+    color: black;
+}
+
+
+#advertise{
+    
+     background-color:#0f1321;
+     border-bottom: 6px solid #71e4bd;
+}
+
+#advertise img{
+    width: 700px;
+    margin-top: 400px;
+        margin-bottom:0px
+
+}
+
+#advertise h2{
+  
+    color:#71e4bd ;
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+
+ #advertise p
+{
+    text-indent: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#buttonadvertise {
+    margin-top: 20%;
+}
+
+#buttonadvertise ul li{
+    display: inline-block;
+    background-color:#71e4bd;
+    margin: 2px;
+    padding: 20px 20px 20px 20px;
+}
+#buttonadvertise ul li a{
+    text-align: center;
+    color: white;
+   font-size: 20px
+}
+#buttonadvertise ul :hover{
+    background-color: azure;
+}
+#buttonadvertise ul:hover a {
+    color: black;
+}
+
+        
+#mobile{
+   
+     background-color:#0f1321;
+    border-bottom: 6px solid red;
+}
+
+#mobile img{
+width: 700px;
+    margin-top: 400px;
+        margin-bottom:0px;
+
+}
+
+#mobile h2{
+  
+    color:red;
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+
+ #mobile p
+{
+    text-indent: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#buttonmobile {
+    margin-top: 20%;
+}
+
+#buttonmobile ul li{
+    display: inline-block;
+    background-color: red;
+    margin: 2px;
+    padding: 20px 20px 20px 20px;
+}
+#buttonmobile ul li a{
+    text-align: center;
+    color: white;
+   font-size: 20px
+}
+#buttonmobile ul :hover{
+    background-color: azure;
+}
+#buttonmobile ul:hover a {
+    color: black;
+}
+
+        
+#analytics{
+   
+     background-color:#0f1321;
+     border-bottom: 6px solid #5ce0f4;
+}
+
+#analytics img{
+width: 700px;
+    margin-top: 400px;
+        margin-bottom:0px;
+
+}
+
+#analytics h2{
+  
+    color:#5ce0f4;
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+#analytics h3{
+    color: azure;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+#analytics p,li
+{
+    text-indent: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#buttonanalytics {
+    margin-top: 20%;
+}
+
+#buttonanalytics ul li{
+    display: inline-block;
+    background-color: #5ce0f4;
+    margin: 2px;
+    padding: 20px 20px 20px 20px;
+}
+#buttonanalytics ul li a{
+    text-align: center;
+    color: white;
+   font-size: 20px
+}
+#buttonanalytics ul :hover{
+    background-color: azure;
+}
+#buttonanalytics ul:hover a {
+    color: black;
+}
+
+#social
+{
+     background-color:#0f1321;
+    
+    border-bottom: 6px solid #3581e2;
+}
+
+#social h2
+{
+    color:#3581e2;
+    font-family: fantasy;
+    font-size: 50px;    
+}
+
+#social h3
+{
+    color: white;
+}
+
+#social p
+{
+    text-indent: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#social img{
+width: 700px;
+    margin-top: 400px;
+        margin-bottom:0px
+
+}
+#buttonsocial {
+    margin-top: 20%;
+}
+
+#buttonsocial ul li{
+    display: inline-block;
+    background-color: #3581e2;
+    margin: 2px;
+    padding: 20px 20px 20px 20px;
+}
+#buttonsocial ul li a{
+    text-align: center;
+    color: white;
+   font-size: 20px
+}
+#buttonsocial ul :hover{
+    background-color: azure;
+}
+#buttonsocial ul:hover a {
+    color: black;
+}
+#development
+{
+    background-color:#0f1321;
+     border-bottom: 6px solid #71e4bd;
+}
+
+#development img
+{
+    width: 700px;
+    margin-top: 400px;
+        margin-bottom:0px
+}
+
+#development h2
+{
+  color:#71e4bd ;
+    font-family: fantasy;
+    font-size: 50px;
+    }
+
+ #development p
+{
+    text-indent: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#buttondevelop {
+    margin-top: 20%;
+}
+
+#buttondevelop ul li{
+    display: inline-block;
+  background-color: #71e4bd;
+    margin: 2px;
+    padding: 20px 20px 20px 20px;
+}
+#buttondevelop ul li a{
+    text-align: center;
+    color: white;
+   font-size: 20px
+}
+#buttondevelop ul :hover{
+    background-color: azure;
+}
+#buttondevelop ul:hover a {
+    color: black;
+}
+#footer
+{
+background-color: black;
+   
+}
+
+#footer ul{
+    text-align: center;
+}
+
+#footer ul li{
+    display: inline-block;
+    
+   
+    
+}
+#footer ul li a{
+    font-size:30px;   
+}
+
+#footer p{
+    color: white;
+    font-size: 30px;
+   margin-left: 20%;
+    margin-top: 0px;
+    font-family: c;
+        
+}
+
+/*WHAT WE DO*/
+
+#container1{
+     overflow: hidden;
+    position: absolute;
+    width: 100%;
+  
+}
+
+#overview h2
+{
+    color:#ffcc1b;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 10%;
+    text-align: center    
+}
+
+
+
+#overview p
+{
+    font-size: 16px;
+    margin-left: 12%;   
+}
+#overviewimage .col-sm-6
+{
+    overflow: hidden;
+    background-image: url(../image/yellowbg.jpg);
+    height: 790px;      
+}
+
+#overviewimage .col-sm-6 img
+{
+    border: 5px solid lightblue;
+  border-radius: 5px;
+    width: 602px;
+    color: lightblue
+    position: relative;
+    height: 600px;
+   margin: 60px 0px 60px 10px;
+}
+
+#servicewedo h2
+{
+    color:#ab60cb;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 10%;
+    text-align: center    
+}
+
+#servicewedo p
+{
+    font-size: 16px;
+    
+}
+#servicewedoimage .col-sm-6
+{
+    overflow: hidden;
+   /* background-image: url(../image/voiletbg.00_jpg_srz.jpeg);*/
+    background-color:#ab60cb; 
+    height: 790px;      
+}
+
+#servicewedoimage .col-sm-6 img
+{
+    border: 5px solid lightblue;
+  border-radius: 5px;
+    width: 602px;
+    color: lightblue
+    position: relative;
+    height: 600px;
+   margin: 60px 0px 60px 10px;
+}
+   #buttonservicewedo {
+    margin-top: 20%;
+}
+
+#buttonservicewedo ul li{
+    display: inline-block;
+    background-color: #ab60cb;
+    margin: 2px;
+    padding: 20px 20px 20px 20px;
+}
+#buttonservicewedo ul li a{
+    text-align: center;
+    color: white;
+   font-size: 20px
+}
+
+#buttonservicewedo ul :hover{
+    background-color: black;
+}
+/*#buttonservicewedo ul:hover a {
+    color: white;
+}*/
+
+
+#help h2
+{
+    color:#7dd06d;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 10%;
+    text-align: center    
+}
+#help h3{
+    color: #7dd06d;
+}
+
+#help p
+{
+    font-size: 16px;
+    
+}
+#helpimage .col-sm-6
+{
+    overflow: hidden;
+    background-color:#7dd06d; 
+    /*background-image: url(../image/greenbg.jpg);*/
+    height: 790px;      
+}
+
+#helpimage .col-sm-6 img
+{
+    width: 602px;
+    color: lightblue
+    position: relative;
+    height: 600px;
+   margin: 60px 0px 60px 10px;
+}
+
+/*testimonials
+   */
+
+#section_3{
+   
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 14%; 
+    text-align: center;
+}
+
+#headertest{
+     background-image:url(../image/brick_wall.jpg);
+}
+
+
+/*#section_3 
+  {
+   
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    height: 500px;
+      
+    }*/
+
+
+#section_3  h2
+{
+    color: #fff;
+    font-size: 35px;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: center;    
+}
+
+#section_3 p
+{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#section_3 .slider {
+    width: 200%;
+    position: absolute;
+    left:0px;
+    animation: slider_2 10s infinite linear alternate;
+   
+}
+
+@keyframes slider_2 {
+    0% {
+        left: 0%;
+    }
+    15% {
+        left: 0%;}
+    20% {
+        left: -20%;
+    }
+    35%{left: -20%;}
+    40% {
+        left: -40%;
+    }
+    55% {left: -40%;}
+    60% {
+        left: -60%;
+    }
+    75%{left: -60%;}
+    80% {
+        left: -80%;
+    }
+    95% {left: -80%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+#section_3 .slide {
+    float: left;
+    width: 10%;   
+}
+#section_3 .slide img {
+      
+}
+
+#section_3 p, #section_3 h3, #section_3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    #section_3 {
+        height: auto;
+    }
+    #section_3 .slider {
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    #section_3 .slide {
+        width: 33.33%;
+       
+    }
+    #section_3 .slide:last-child {
+        display: none;
+    }
+}
+#review
+{
+padding: 60px; 
+    width: 100%;
+}
+
+#review h5
+{
+ font-size: 17px; 
+ font-family:cursive;
+    font-weight: 100;
+
+}
+
+#review p
+{
+  font-size: 25px;
+ font-family: cursive;
+    color: crimson;
+}
+#buttontest 
+{
+    background-color:#ff4545;
+    margin-top: 25%;
+    
+}
+
+#buttontest .button
+{
+    font-size: 28px;
+    padding: 15px;
+    margin: 19px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+  
+    
+  }
+#buttontest .contenttest{
+    display: inline-block;
+    color: aliceblue;
+  
+    margin:50px 10px 0px 370px;
+}
+#buttontest .contenttest h3
+{
+font-size: 40px;    
+}
+
+#buttontest .button a
+{
+    color: white;
+}
+
+/*
+blog
+*/
+#container3{
+     
+   overflow: hidden
+}
+#headerblog
+{
+background-color:lightgreen;   
+    
+}
+
+#heading
+{
+    text-align: center;
+    margin-top: 45px;
+}
+#heading h1,p
+{
+font-family:monospace;    
+} 
+
+#heading h1
+{
+    font-size:45px;   
+}    
+
+#heading p
+{
+font-size: 18px;    
+}
+
+#blogcontent 
+{
+ margin:4%;    
+}
+
+#blogcontent .col-sm-3 img
+{
+  position:relative;
+   width:290px;
+  height:280px;  
+} 
+
+/*contact*/
+
+#headercontact
+{
+   background-image: url(../image/bg1.jpg);
+    height:700px;   
+}
+
+#form
+{
+margin: 60px 100px 20px 100px;    
+}
+
+input
+{
+    background:transparent;
+  width:100%;  
+  border-bottom: 2px solid grey;
+  padding:12px;
+  margin-bottom:15px;
+    border-left: transparent;
+    border-right:transparent;
+    border-top: transparent;
+}
+
+::-webkit-input-placeholder
+{ 
+color:brown;
+font-weight: 600;
+font-size: 17px;
+}
+
+#submitmsg
+{
+ background-color: brown;
+ width:200px;
+ padding: 18px;
+ margin: 15px ;
+
+}
+
+#submitmsg:hover
+{
+    background-color: aliceblue;
+}
+
+#location
+{
+    margin-top:12%;
+    margin-left:30%;
+}
+   
